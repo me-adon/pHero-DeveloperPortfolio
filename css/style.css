@@ -1,6 +1,48 @@
-h1{
+h1 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
     font-family: 'Finlandica', sans-serif;
 }
-h2{
-    font-family: 'Poppins', sans-serif;
+
+section {
+    display: flex;
+}
+
+#stylee {
+    color: rgb(119, 50, 119);
+}
+
+.half-width {
+    width: 50%;
+    margin: 50px;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.mar-bott {
+    padding-left: 30px;
+}
+
+.link-button {
+    border: 2px solid orange;
+    background-image: -moz-linear-gradient(orange, tomato);
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 7px;
+
+    text-decoration: none;
+}
+
+.border {
+    border: 2px solid orange;
 }
