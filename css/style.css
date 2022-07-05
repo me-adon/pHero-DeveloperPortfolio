@@ -78,11 +78,30 @@ h2 {
     margin-right: 5%;
     margin-bottom: 10%;
     padding-left: 20px;
-    box-shadow: 10px 10px 40px yellowgreen;
+    box-shadow: 10px 10px 40px rgb(72, 28, 114);
+}
+
+#baby-web-dev {
+    padding: 50px;
+    border-left: 8px solid blue;
+}
+
+#full-stack-web-dev {
+    padding: 50px;
+    border-left: 8px solid red;
 }
 
 .experience-img {
     background-image: url(../Images/exp-bg.png);
     background-repeat: no-repeat;
     background-position-y: 150px;
+}
+
+.text-size {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+}
+
+#text-center {
+    text-align: center;
 }
