@@ -18,7 +18,7 @@ h2 {
     font-family: 'Finlandica', sans-serif;
 }
 
-section {
+.flex-contain {
     display: flex;
 
 }
@@ -29,7 +29,8 @@ section {
 
 .half-width {
     width: 50%;
-    margin: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .half-width img {
