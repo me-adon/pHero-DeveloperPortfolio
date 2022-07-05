@@ -29,8 +29,8 @@ h2 {
 
 .half-width {
     width: 50%;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 50px;
+
 }
 
 .half-width img {
@@ -39,6 +39,10 @@ h2 {
 
 .mar-bott {
     padding-left: 30px;
+}
+
+.orange-color {
+    color: orange;
 }
 
 .link-button {
@@ -66,4 +70,19 @@ h2 {
     background-repeat: no-repeat;
     background-position: right;
     background-position-y: 300px;
+}
+
+.shadow-margin {
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px yellowgreen;
+}
+
+.experience-img {
+    background-image: url(../Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 150px;
 }
