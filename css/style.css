@@ -1,4 +1,4 @@
-h1 {
+.biggest {
 
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
@@ -6,9 +6,15 @@ h1 {
 
 body {
     font-family: 'Poppins', sans-serif;
+
 }
 
 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+.unused {
     font-family: 'Finlandica', sans-serif;
 }
 
@@ -45,4 +51,10 @@ section {
 
 .border {
     border: 2px solid orange;
+}
+
+.top-corner {
+
+    background-image: url(../Images/top-banner.png);
+    background-repeat: no-repeat;
 }
