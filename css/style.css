@@ -20,6 +20,7 @@ h2 {
 
 section {
     display: flex;
+
 }
 
 #stylee {
@@ -32,7 +33,7 @@ section {
 }
 
 .half-width img {
-    width: 80%;
+    width: 100%;
 }
 
 .mar-bott {
@@ -57,4 +58,11 @@ section {
 
     background-image: url(../Images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.side-corner {
+    background-image: url(../Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 300px;
 }
